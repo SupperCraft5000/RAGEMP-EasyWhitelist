@@ -9,4 +9,4 @@ Go in the packages folder > then "easy-whitelist" > and edit the file account.js
 
 There you have to add the SocialClub ID. Restart Server & its done.
 
-For questions or help DM me or add me on Discord: XCRON#0001
+For questions or help DM me on rage forum: https://rage.mp/profile/90566-xcron/
