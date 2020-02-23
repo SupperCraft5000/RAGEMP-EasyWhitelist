@@ -1,7 +1,9 @@
 const allowedPlayers = require("./account.json");
 
-mp.events.add("playerJoin", player => {
+mp.events.add("playerReady", player => {
   if (allowedPlayers.indexOf(player.socialClub) === -1) {
-    player.kick("Connection closed.");
+    player.notify("Player " + player.socialClub + " is not on the Whitelist!")
+    player.notify("Contact Server Administrator!")
+    player.ban("Not on the Whitelist");
   }
 });
